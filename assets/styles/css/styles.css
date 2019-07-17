@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap");
 html body {
-  font-family: "Open Sans Condensed", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif;
+  overflow-x: hidden; }
 
 html h1,
 html h2,
@@ -10,16 +11,23 @@ html h5,
 html h6 {
   font-family: "DM Serif Display", serif; }
 
+.padding {
+  padding: 1.5rem 0; }
+
 .navbar-char {
   background-color: #1F1F1F;
   position: fixed;
   width: 100%; }
   .navbar-char .brand-color {
     color: white; }
-  .navbar-char ul li .active {
-    text-decoration: underline; }
-  .navbar-char ul li a {
-    color: #E0248A; }
+  .navbar-char ul li {
+    padding-right: .6rem;
+    font-size: 1.2rem;
+    font-weight: bold; }
+    .navbar-char ul li a {
+      color: #E0248A; }
+    .navbar-char ul li .active {
+      color: #fdaeda; }
 
 #navbar-responsive-btn {
   padding: 9px 10px;
@@ -89,3 +97,34 @@ footer {
   background-size: cover; }
   .callout-container .callout {
     margin: auto; }
+
+/*Welcome styles*/
+.welcome {
+  background-color: rgba(231, 213, 213, 0.4); }
+
+/*Image slider styles*/
+.carousel-item {
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Intouch styles*/
+.intouch {
+  background-color: rgba(231, 213, 213, 0.4); }
+  .intouch ul {
+    list-style: none; }
+    .intouch ul li {
+      display: inline-block;
+      padding-right: 2rem; }
+      .intouch ul li i {
+        width: 40px;
+        height: 40px;
+        padding: 20px 0;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 0;
+        text-align: center;
+        color: #fafafa;
+        background: #5f98b3;
+        margin: 0 5px; }

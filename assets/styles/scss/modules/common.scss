@@ -1,6 +1,7 @@
 html {
   body {
     font-family: $paraFont;
+    overflow-x: hidden;
   }
 
   h1,
@@ -11,6 +12,10 @@ html {
   h6 {
     font-family: $headerFont;
   }
+}
+
+.padding{
+  padding: 1.5rem 0;
 }
 
 .navbar-char {
@@ -24,12 +29,14 @@ html {
 
   ul {
     li {
-      .active {
-        text-decoration: underline;
-      }
-
+      padding-right: .6rem;
+      font-size: 1.2rem;
+      font-weight: bold;
       a {
         color: $hotPink;
+      }
+      .active{
+        color: $navActive;
       }
     }
   }

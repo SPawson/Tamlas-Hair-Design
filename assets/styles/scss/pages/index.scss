@@ -3,7 +3,7 @@
 .callout-container {
   display: flex;
   align-items: center;
-  justify-content:center; 
+  justify-content:center;
   height: 100vh;
   background-image: url("../../images/callout/model.jpg");
   background-position: center;
@@ -13,4 +13,44 @@
   .callout {
     margin: auto;
   }
+}
+
+/*Welcome styles*/
+.welcome{
+  background-color: $paleBrown;
+}
+
+/*Image slider styles*/
+.carousel-item {
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Intouch styles*/
+
+.intouch{
+  background-color: $paleBrown;
+  ul{
+    list-style: none;
+    li{
+      display: inline-block;
+      padding-right: 2rem;
+
+      i{
+        width: 40px;
+        height: 40px;
+        padding: 20px 0;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 0;
+        text-align: center;
+        color: #fafafa;
+        background: $footerFb;
+        margin: 0 5px;
+      }
+    }
+  }
+
 }
