@@ -11,7 +11,9 @@ html h6 {
   font-family: "DM Serif Display", serif; }
 
 .navbar-char {
-  background-color: #1F1F1F; }
+  background-color: #1F1F1F;
+  position: fixed;
+  width: 100%; }
   .navbar-char .brand-color {
     color: white; }
   .navbar-char ul li .active {
@@ -68,3 +70,22 @@ footer {
       margin: 0 5px; }
     footer .social-links li a .mail {
       background-color: #f75959f0; }
+
+/*Callout styles*/
+.callout-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../images/callout/model.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .callout-container .callout {
+    margin: auto; }

@@ -15,6 +15,8 @@ html {
 
 .navbar-char {
   background-color: $charcoal;
+  position: fixed;
+  width: 100%;
 
   .brand-color {
     color: white;
