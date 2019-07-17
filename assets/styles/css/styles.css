@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap");
+html body {
+  font-family: "Open Sans Condensed", sans-serif; }
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-family: "DM Serif Display", serif; }
+
+.navbar-char {
+  background-color: #1F1F1F; }
+  .navbar-char .brand-color {
+    color: white; }
+  .navbar-char ul li .active {
+    text-decoration: underline; }
+  .navbar-char ul li a {
+    color: #E0248A; }
+
+#navbar-responsive-btn {
+  padding: 9px 10px;
+  border-color: #E0248A; }
+  #navbar-responsive-btn .icons {
+    display: inline-block; }
+  #navbar-responsive-btn .icon-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #E0248A;
+    margin-top: 6px; }
+  #navbar-responsive-btn .icon-bar-top {
+    margin-top: 0; }
+
+.hidden {
+  display: none; }
+
+footer {
+  background-color: #F0C4DC;
+  color: #FEFEFF; }
+  footer h4 {
+    color: #6a6a77;
+    text-decoration: underline; }
+  footer ul {
+    padding-left: 0; }
+    footer ul li {
+      list-style: none; }
+  footer a {
+    color: #FEFEFF; }
+  footer .footer-pages .footer-link {
+    display: inline-block; }
+  footer .icon {
+    padding-right: 5px; }
+  footer .social-links li {
+    display: inline-block; }
+    footer .social-links li a i {
+      width: 40px;
+      height: 40px;
+      padding: 20px 0;
+      border-radius: 50%;
+      font-size: 20px;
+      line-height: 0;
+      text-align: center;
+      color: #fafafa;
+      background: #5f98b3;
+      margin: 0 5px; }
+    footer .social-links li a .mail {
+      background-color: #f75959f0; }

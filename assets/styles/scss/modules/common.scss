@@ -1,0 +1,117 @@
+html {
+  body {
+    font-family: $paraFont;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $headerFont;
+  }
+}
+
+.navbar-char {
+  background-color: $charcoal;
+
+  .brand-color {
+    color: white;
+  }
+
+  ul {
+    li {
+      .active {
+        text-decoration: underline;
+      }
+
+      a {
+        color: $hotPink;
+      }
+    }
+  }
+}
+
+#navbar-responsive-btn {
+  padding: 9px 10px;
+  border-color: $hotPink;
+
+  .icons {
+    display: inline-block;
+  }
+
+  .icon-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: $hotPink;
+    margin-top: 6px;
+  }
+
+  .icon-bar-top {
+    margin-top: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: $palePink;
+  color: $footerText;
+
+  h4 {
+    color: $footerHeading;
+    text-decoration: underline;
+  }
+
+  ul {
+    padding-left: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    color: $footerText;
+  }
+
+  .footer-pages {
+    .footer-link {
+      display: inline-block;
+    }
+  }
+
+  .icon {
+    padding-right: 5px;
+  }
+
+  .social-links {
+    li {
+      display: inline-block;
+      a {
+        i {
+
+          width: 40px;
+          height: 40px;
+          padding: 20px 0;
+          border-radius: 50%;
+          font-size: 20px;
+          line-height: 0;
+          text-align: center;
+          color: #fafafa;
+          background: $footerFb;
+          margin: 0 5px;
+
+        }
+        .mail{
+          background-color: $mail;
+        }
+      }
+    }
+  }
+}
