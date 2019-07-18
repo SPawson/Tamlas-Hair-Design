@@ -1,0 +1,34 @@
+.special-events {
+  margin-top: 3.5rem;
+}
+
+.events-carousel {
+  margin: 0 auto;
+}
+//Media Queries
+@media(min-width: 576px) {
+  .events-carousel {
+    max-width: 60%;
+    margin-bottom: 2rem;
+  }
+}
+@media(min-width: 768px) {
+  .events-carousel {
+    max-width: 50%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 992px) {
+  .events-carousel {
+    max-width: 40%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .events-carousel {
+    max-width: 30%;
+    margin-bottom: 2rem;
+  }
+}
