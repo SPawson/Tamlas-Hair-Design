@@ -9,9 +9,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  //background-color: rgba(0,0,0,.8);
 
   .callout {
     margin: auto;
+  }
+  .jumbotron-color{
+    background-color: rgba(255, 244, 234, 0.88);
   }
 }
 
@@ -53,4 +57,15 @@
     }
   }
 
+}
+
+.opening-times{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+
+  td{
+    padding:1rem 2rem;
+  }
 }

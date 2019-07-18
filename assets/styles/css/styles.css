@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap");
 html body {
   font-family: "Open Sans Condensed", sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #494c4e;
+  font-size: 1.2rem; }
 
 html h1,
 html h2,
@@ -12,12 +14,15 @@ html h6 {
   font-family: "DM Serif Display", serif; }
 
 .padding {
-  padding: 1.5rem 0; }
+  padding: 1.5rem 1rem; }
 
 .navbar-char {
   background-color: #1F1F1F;
   position: fixed;
-  width: 100%; }
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
   .navbar-char .brand-color {
     color: white; }
   .navbar-char ul li {
@@ -97,6 +102,8 @@ footer {
   background-size: cover; }
   .callout-container .callout {
     margin: auto; }
+  .callout-container .jumbotron-color {
+    background-color: rgba(255, 244, 234, 0.88); }
 
 /*Welcome styles*/
 .welcome {
@@ -128,3 +135,37 @@ footer {
         color: #fafafa;
         background: #5f98b3;
         margin: 0 5px; }
+
+.opening-times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.5rem; }
+  .opening-times td {
+    padding: 1rem 2rem; }
+
+.intro {
+  margin-top: 5rem; }
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .services .service-card {
+    margin: 0 auto 2rem auto; }
+    .services .service-card .btn-card {
+      background-color: #e8a1c9;
+      border-color: #e8a1c9;
+      font-weight: bold; }

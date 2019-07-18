@@ -1,0 +1,17 @@
+.intro {
+  margin-top: 5rem;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .service-card {
+    margin: 0 auto 2rem auto;
+    .btn-card {
+      background-color: $servicesBtn;
+      border-color: $servicesBtn;
+      font-weight: bold;
+    }
+  }
+}

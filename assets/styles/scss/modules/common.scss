@@ -2,6 +2,8 @@ html {
   body {
     font-family: $paraFont;
     overflow-x: hidden;
+    color: $fontColor;
+    font-size: 1.2rem;
   }
 
   h1,
@@ -15,13 +17,16 @@ html {
 }
 
 .padding{
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
 }
 
 .navbar-char {
   background-color: $charcoal;
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
+  z-index: 1;
 
   .brand-color {
     color: white;
