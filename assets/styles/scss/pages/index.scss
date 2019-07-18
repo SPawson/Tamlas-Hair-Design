@@ -16,6 +16,17 @@
   }
   .jumbotron-color{
     background-color: rgba(255, 244, 234, 0.88);
+
+    .btn-callout{
+      background-color: $servicesBtn;
+      border-color: $servicesBtn;
+      font-weight: bold;
+      font-size: 1.3rem;
+      letter-spacing: 0.1em;
+      margin: 0 1rem;
+      height: 3rem;
+      width: 6rem;
+    }
   }
 }
 
