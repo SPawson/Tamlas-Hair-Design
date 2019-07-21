@@ -2,6 +2,7 @@ html {
   body {
     font-family: $paraFont;
     overflow-x: hidden;
+    background-color: $paleBrown;
     color: $fontColor;
     font-size: 1.2rem;
   }
@@ -13,10 +14,11 @@ html {
   h5,
   h6 {
     font-family: $headerFont;
+    letter-spacing: 0.08em;
   }
 }
 
-.padding{
+.padding {
   padding: 1.5rem 1rem;
 }
 
@@ -34,13 +36,15 @@ html {
 
   ul {
     li {
-      padding-right: .6rem;
+      padding-right: 0.6rem;
       font-size: 1.2rem;
       font-weight: bold;
+
       a {
         color: $hotPink;
       }
-      .active{
+
+      .active {
         color: $navActive;
       }
     }
@@ -107,9 +111,9 @@ footer {
   .social-links {
     li {
       display: inline-block;
+
       a {
         i {
-
           width: 40px;
           height: 40px;
           padding: 20px 0;
@@ -120,9 +124,9 @@ footer {
           color: #fafafa;
           background: $footerFb;
           margin: 0 5px;
-
         }
-        .mail{
+
+        .mail {
           background-color: $mail;
         }
       }

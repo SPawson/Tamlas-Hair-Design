@@ -2,6 +2,7 @@
 html body {
   font-family: "Open Sans Condensed", sans-serif;
   overflow-x: hidden;
+  background-color: rgba(231, 213, 213, 0.4);
   color: #494c4e;
   font-size: 1.2rem; }
 
@@ -11,7 +12,8 @@ html h3,
 html h4,
 html h5,
 html h6 {
-  font-family: "DM Serif Display", serif; }
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 0.08em; }
 
 .padding {
   padding: 1.5rem 1rem; }
@@ -26,7 +28,7 @@ html h6 {
   .navbar-char .brand-color {
     color: white; }
   .navbar-char ul li {
-    padding-right: .6rem;
+    padding-right: 0.6rem;
     font-size: 1.2rem;
     font-weight: bold; }
     .navbar-char ul li a {
@@ -204,3 +206,36 @@ footer {
   .events-carousel {
     max-width: 30%;
     margin-bottom: 2rem; } }
+
+.prices-intro {
+  margin-top: 3.5rem; }
+
+.prices .icon-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(21, 21, 21, 0.58);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px; }
+
+.prices .carousel-item .card {
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-height: 55vh; }
+
+.price-list {
+  margin: auto;
+  font-size: 1.5rem; }
+  .price-list td {
+    padding: 1rem 1.8rem; }
+  .price-list .title {
+    font-weight: bold; }
