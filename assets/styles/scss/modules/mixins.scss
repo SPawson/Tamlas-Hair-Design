@@ -1,5 +1,8 @@
 // Icon base style
 @mixin icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   padding: 20px 0;
