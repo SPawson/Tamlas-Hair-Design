@@ -4,7 +4,7 @@ html {
     overflow-x: hidden;
     background-color: $paleBrown;
     color: $fontColor;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   h1,
@@ -15,6 +15,7 @@ html {
   h6 {
     font-family: $headerFont;
     letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 }
 
@@ -31,7 +32,7 @@ html {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 
   .brand-color {
     color: white;
@@ -80,6 +81,7 @@ html {
   display: none;
 }
 
+//Footer Styles
 footer {
   background-color: $palePink;
   color: $footerText;
@@ -117,16 +119,9 @@ footer {
 
       a {
         i {
-          width: 40px;
-          height: 40px;
-          padding: 20px 0;
-          border-radius: 50%;
-          font-size: 20px;
-          line-height: 0;
-          text-align: center;
+          @include icon;
           color: #fafafa;
           background: $footerFb;
-          margin: 0 5px;
         }
 
         .mail {

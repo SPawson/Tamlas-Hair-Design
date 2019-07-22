@@ -10,14 +10,16 @@ $footerHeading: #6a6a77;
 $footerText: #FEFEFF;
 $footerFb: #5f98b3;
 $mail: #f75959f0;
+$calloutColor: rgba(255, 244, 234, 0);
+$colourOverlay: rgba(255, 255, 255,.7);
 
 //Buttons
 
 $servicesBtn: rgb(232, 161, 201);
 //text
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 $headerFont: 'DM Serif Display', serif;
-$paraFont: 'Open Sans Condensed', sans-serif;
+$paraFont: 'Karla', sans-serif;
 $fontColor: #494c4e;
 //misc

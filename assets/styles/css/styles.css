@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display");
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 html body {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Karla", sans-serif;
   overflow-x: hidden;
   background-color: rgba(231, 213, 213, 0.4);
   color: #494c4e;
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 html h1,
 html h2,
@@ -13,7 +14,8 @@ html h4,
 html h5,
 html h6 {
   font-family: "DM Serif Display", serif;
-  letter-spacing: 0.08em; }
+  letter-spacing: 0.08em;
+  text-transform: uppercase; }
 
 .padding {
   padding: 1.5rem 1rem; }
@@ -27,7 +29,7 @@ html h6 {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1; }
+  z-index: 3; }
   .navbar-char .brand-color {
     color: white; }
   .navbar-char ul li {
@@ -83,14 +85,14 @@ footer {
       font-size: 20px;
       line-height: 0;
       text-align: center;
+      margin: 0 5px;
       color: #fafafa;
-      background: #5f98b3;
-      margin: 0 5px; }
+      background: #5f98b3; }
     footer .social-links li a .mail {
       background-color: #f75959f0; }
 
 /*Callout styles*/
-.callout-container {
+.callout-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,25 +106,36 @@ footer {
   background-image: url("../../images/callout/model.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
-  .callout-container .callout {
-    margin: auto; }
-  .callout-container .jumbotron-color {
-    background-color: rgba(255, 244, 234, 0.88); }
-    .callout-container .jumbotron-color .btn-callout {
+  background-size: cover;
+  position: relative; }
+  .callout-section .color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0.95;
+    position: absolute; }
+  .callout-section .callout {
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    text-transform: uppercase; }
+  .callout-section .jumbotron-color {
+    background-color: rgba(255, 244, 234, 0); }
+    .callout-section .jumbotron-color .btn-callout {
       background-color: #e8a1c9;
       border-color: #e8a1c9;
-      font-weight: bold;
-      font-size: 1.3rem;
+      border-radius: 30px;
       letter-spacing: 0.1em;
-      margin: 0 1rem;
-      height: 3rem;
-      width: 6rem; }
+      margin: 0.5rem 1rem;
+      width: 8rem; }
+      .callout-section .jumbotron-color .btn-callout a {
+        color: white;
+        font-size: 1.2rem; }
+    .callout-section .jumbotron-color .btn-callout:hover {
+      background-color: #cc96b4;
+      border-color: #cc96b4; }
 
 /*Welcome styles*/
-.welcome {
-  background-color: rgba(231, 213, 213, 0.4); }
-
 /*Image slider styles*/
 .carousel-item {
   height: 60vh;
@@ -146,9 +159,9 @@ footer {
         font-size: 20px;
         line-height: 0;
         text-align: center;
+        margin: 0 5px;
         color: #fafafa;
-        background: #5f98b3;
-        margin: 0 5px; }
+        background: #5f98b3; }
 
 .opening-times {
   display: -webkit-box;
