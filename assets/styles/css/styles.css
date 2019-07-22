@@ -286,3 +286,24 @@ footer {
 
 .location {
   background-color: white; }
+
+.address-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  padding: 1rem; }
+  .address-container .address-list {
+    list-style: none;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold; }
+
+#map {
+  margin-top: 1rem;
+  height: 300px;
+  width: 100%;
+  background-color: grey; }
