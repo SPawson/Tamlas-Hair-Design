@@ -91,6 +91,10 @@ footer {
     footer .social-links li a .mail {
       background-color: #f75959f0; }
 
+.card-shadow {
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2); }
+
 /*Callout styles*/
 .callout-section {
   display: -webkit-box;
@@ -191,7 +195,8 @@ footer {
   -ms-flex-pack: center;
   justify-content: center; }
   .services .service-card {
-    margin: 0 auto 2rem auto; }
+    margin: 0 auto 2rem auto;
+    border-radius: 7px; }
     .services .service-card .btn-card {
       background-color: #e8a1c9;
       border-color: #e8a1c9;
@@ -244,8 +249,8 @@ footer {
 .prices .carousel-item .card {
   margin: 0 auto;
   border-radius: 10px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
   min-height: 55vh; }
 
 .price-list {
