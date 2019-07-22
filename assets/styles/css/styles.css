@@ -18,6 +18,9 @@ html h6 {
 .padding {
   padding: 1.5rem 1rem; }
 
+.top-section {
+  margin-top: 3.5rem; }
+
 .navbar-char {
   background-color: #1F1F1F;
   position: fixed;
@@ -239,3 +242,47 @@ footer {
     padding: 1rem 1.8rem; }
   .price-list .title {
     font-weight: bold; }
+
+.contact-details {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #efdd7e;
+  width: 100%; }
+
+.icon-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(187, 173, 105, 0.58);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2rem; }
+
+.contact-list {
+  list-style: none; }
+
+.icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .icon-container table {
+    display: inline-block;
+    padding: 2.5rem; }
+    .icon-container table .icon-style {
+      margin: 0 auto; }
+
+.location {
+  background-color: white; }

@@ -1,0 +1,40 @@
+.contact-details{
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(239, 221, 126);
+  width: 100%;
+}
+
+.icon-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(187, 173, 105, 0.58);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+}
+.contact-list{
+  list-style: none;
+
+  li{
+  }
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  table{
+      display: inline-block;
+      padding: 2.5rem;
+      .icon-style{
+        margin: 0 auto;
+      }
+  }
+}
+
+.location{
+  background-color: white;
+}
