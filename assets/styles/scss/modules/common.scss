@@ -131,24 +131,32 @@ footer {
   .icon {
     padding-right: 5px;
   }
+.footer-address{
+  display: flex;
+  justify-content: center;
+  color: $fontColor;
 
-  .social-links {
-    li {
-      display: inline-block;
 
-      a {
-        i {
-          @include icon;
-          color: #fafafa;
-          background: $footerFb;
-        }
-
-        .mail {
-          background-color: $mail;
-        }
-      }
-    }
+  .address-list {
+    list-style: none;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
   }
+
+  .icon-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(187, 173, 105, 0.58);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+
 }
 
 .card-shadow{

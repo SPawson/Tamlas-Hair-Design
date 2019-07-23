@@ -97,9 +97,20 @@ footer {
     display: inline-block; }
   footer .icon {
     padding-right: 5px; }
-  footer .social-links li {
-    display: inline-block; }
-    footer .social-links li a i {
+  footer .footer-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #494c4e; }
+    footer .footer-address .address-list {
+      list-style: none;
+      text-align: left;
+      padding-left: 20px;
+      color: white; }
+    footer .footer-address .icon-style {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -109,18 +120,11 @@ footer {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      width: 40px;
-      height: 40px;
-      padding: 20px 0;
+      background-color: rgba(187, 173, 105, 0.58);
       border-radius: 50%;
-      font-size: 20px;
-      line-height: 0;
-      text-align: center;
-      margin: 0 5px;
-      color: #fafafa;
-      background: #5f98b3; }
-    footer .social-links li a .mail {
-      background-color: #f75959f0; }
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2rem; }
 
 .card-shadow {
   -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
@@ -266,6 +270,10 @@ footer {
   background-color: #e8a1c9;
   border-color: #e8a1c9;
   color: white; }
+
+.btn-services:hover {
+  background-color: #cc96b4;
+  border-color: #cc96b4; }
 
 .services {
   display: -webkit-box;
