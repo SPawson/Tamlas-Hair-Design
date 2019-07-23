@@ -380,11 +380,15 @@ footer {
   .price-list .title {
     text-decoration: underline; }
 
+.contact-title {
+  text-align: center; }
+
 .contact-details {
   background-color: white;
   border-radius: 10px;
   border: 1px solid #efdd7e;
-  width: 100%; }
+  width: 100%;
+  padding: 15px; }
 
 .icon-style {
   display: -webkit-box;
@@ -432,7 +436,8 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #f7f7f7;
-  padding: 1rem; }
+  padding: 1rem;
+  width: 100%; }
   .address-container .address-list {
     list-style: none;
     text-align: left;
@@ -444,3 +449,16 @@ footer {
   height: 300px;
   width: 100%;
   background-color: grey; }
+
+@media (min-width: 576px) {
+  .contact-details {
+    margin: 0 auto;
+    max-width: 60%; } }
+
+@media (min-width: 768px) {
+  .address-container {
+    width: 200px; }
+  #map {
+    margin-top: 0;
+    height: 500px;
+    width: 600px; } }

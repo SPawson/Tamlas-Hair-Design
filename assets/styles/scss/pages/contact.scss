@@ -1,8 +1,14 @@
+.contact-title{
+text-align: center;
+
+}
+
 .contact-details {
   background-color: white;
   border-radius: 10px;
   border: 1px solid rgb(239, 221, 126);
   width: 100%;
+  padding: 15px;
 }
 
 .icon-style {
@@ -46,6 +52,7 @@
   justify-content: center;
   background-color: #f7f7f7;
   padding: 1rem;
+  width: 100%;
 
   .icon-address {}
 
@@ -62,4 +69,25 @@
   height:300px;
   width: 100%;
   background-color: grey;
+}
+
+@media(min-width: 576px) {
+  .contact-details {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+}
+
+@media(min-width: 768px) {
+
+
+  .address-container{
+    width: 200px;
+  }
+
+  #map{
+    margin-top: 0;
+    height:500px;
+    width: 600px;
+  }
 }
