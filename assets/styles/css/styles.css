@@ -347,35 +347,38 @@ footer {
 .prices-intro {
   margin-top: 3.5rem; }
 
-.prices .icon-circle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(21, 21, 21, 0.58);
-  border-radius: 50%;
-  width: 25px;
-  height: 25px; }
-
-.prices .carousel-item .card {
-  margin: 0 auto;
-  border-radius: 10px;
-  -webkit-box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
-  min-height: 55vh; }
+.prices {
+  background-color: white; }
+  .prices .icon-circle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(21, 21, 21, 0.58);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; }
+  .prices .carousel-item .card {
+    margin: 0 auto;
+    border: 1px solid #ccb69a;
+    background-color: #ccb69a;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
+    height: 55vh; }
 
 .price-list {
   margin: auto;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
   .price-list td {
     padding: 1rem 1.8rem; }
   .price-list .title {
-    font-weight: bold; }
+    text-decoration: underline; }
 
 .contact-details {
   background-color: white;
