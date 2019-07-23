@@ -12,3 +12,9 @@
   text-align: center;
   margin: 0 5px;
 }
+
+@mixin sectionPad{
+  padding: 30px 5px 0px 5px;
+  margin:25px 0;
+  background-color: inherit;
+}

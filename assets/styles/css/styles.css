@@ -3,7 +3,7 @@
 html body {
   font-family: "Karla", sans-serif;
   overflow-x: hidden;
-  background-color: rgba(220, 202, 218, 0.4);
+  background-color: rgba(255, 230, 252, 0.32);
   color: #494c4e;
   font-size: 1rem; }
 
@@ -150,10 +150,14 @@ footer {
 
 /*Welcome styles*/
 .welcome {
-  margin-top: 20px;
-  padding: 15px; }
+  padding: 30px 5px 0px 5px;
+  margin: 25px 0;
+  background-color: inherit; }
 
 /*Image slider styles*/
+.carousel {
+  background-color: white; }
+
 .carousel-item {
   height: 60vh;
   background-position: center;
@@ -162,7 +166,9 @@ footer {
 
 /*Intouch styles*/
 .intouch {
-  background-color: rgba(220, 202, 218, 0.4); }
+  padding: 30px 5px 0px 5px;
+  margin: 25px 0;
+  background-color: inherit; }
   .intouch ul {
     list-style: none;
     margin-top: 30px; }
@@ -205,11 +211,34 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    padding: 30px 5px 0px 5px;
+    margin: 25px 0;
+    background-color: inherit; }
+    .opening .opening-times tbody {
+      border: 1px solid #ccb69a;
+      border-radius: 7px; }
     .opening .opening-times tr {
       text-decoration: underline; }
     .opening .opening-times td {
       padding: 1rem 2rem; }
+
+@media (min-width: 768px) {
+  .img-carousel {
+    margin: 0 auto;
+    max-width: 50%; }
+  .carousel-item {
+    margin: 2em inherit; } }
+
+@media (min-width: 992px) {
+  .img-carousel {
+    max-width: 40%;
+    margin-bottom: 2rem; } }
+
+@media (min-width: 1200px) {
+  .img-carousel {
+    max-width: 30%;
+    margin-bottom: 2rem; } }
 
 .intro {
   margin-top: 5rem; }

@@ -1,4 +1,5 @@
 /*Callout styles*/
+
 .callout-section {
   display: flex;
   align-items: center;
@@ -49,14 +50,13 @@
   }
 }
 /*Welcome styles*/
-
 .welcome {
-  margin-top: 20px;
-  padding: 15px;
-
+  @include sectionPad
 }
 /*Image slider styles*/
-
+.carousel{
+  background-color: white;
+}
 .carousel-item {
   height: 60vh;
   background-position: center;
@@ -64,10 +64,9 @@
   background-size: cover;
 }
 /*Intouch styles*/
-.intouch {
-  background-color: $paleBrown;
 
-  ul {
+.intouch {
+  @include sectionPad ul {
     list-style: none;
     margin-top: 30px;
 
@@ -87,18 +86,51 @@
   }
 }
 
-.opening{
+.opening {
+
   background-color: white;
+
   .opening-times {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    tr{
+    @include sectionPad;
+
+
+    tbody{
+      border: 1px solid $goldIcon;
+      border-radius: 7px;
+    }
+
+    tr {
       text-decoration: underline;
     }
+
     td {
       padding: 1rem 2rem;
     }
+  }
+}
+//Media Queries
+@media(min-width: 768px) {
+  .img-carousel {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  .carousel-item{
+    margin: 2em inherit;
+  }
+}
+@media(min-width: 992px) {
+  .img-carousel {
+    max-width: 40%;
+    margin-bottom: 2rem;
+  }
+}
+@media(min-width: 1200px) {
+  .img-carousel {
+    max-width: 30%;
+    margin-bottom: 2rem;
   }
 }
