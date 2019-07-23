@@ -2,6 +2,12 @@
   margin-top: 5rem;
 }
 
+.btn-services {
+  background-color: $servicesBtn;
+  border-color: $servicesBtn;
+  color: white;
+}
+
 .services {
   display: flex;
   align-items: center;
@@ -9,10 +15,51 @@
   .service-card {
     margin: 0 auto 2rem auto;
     border-radius: 7px;
-    .btn-card {
-      background-color: $servicesBtn;
-      border-color: $servicesBtn;
-      font-weight: bold;
+    .card-image-size{
+      height:350px;
     }
+  }
+}
+
+.description{
+  display: block;
+}
+
+.special-events{
+  background-color: white;
+}
+
+.events{
+  background-color: white;
+}
+
+.events-carousel {
+  margin: 0 auto;
+}
+//Media Queries
+@media(min-width: 576px) {
+  .events-carousel {
+    max-width: 60%;
+    margin-bottom: 2rem;
+  }
+}
+@media(min-width: 768px) {
+  .events-carousel {
+    max-width: 50%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 992px) {
+  .events-carousel {
+    max-width: 40%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .events-carousel {
+    max-width: 30%;
+    margin-bottom: 2rem;
   }
 }

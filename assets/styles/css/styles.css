@@ -15,7 +15,8 @@ html h5,
 html h6 {
   font-family: "DM Serif Display", serif;
   letter-spacing: 0.08em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 .padding {
   padding: 1.5rem 1rem; }
@@ -58,6 +59,27 @@ html h6 {
 
 .hidden {
   display: none; }
+
+.btn {
+  border-radius: 30px;
+  letter-spacing: 0.1em;
+  margin: 0.5rem 1rem;
+  width: 8rem; }
+
+.round-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto; }
 
 footer {
   background-color: #F0C4DC;
@@ -150,8 +172,7 @@ footer {
 
 /*Welcome styles*/
 .welcome {
-  padding: 30px 5px 0px 5px;
-  margin: 25px 0;
+  padding: 1.5rem 1rem;
   background-color: inherit; }
 
 /*Image slider styles*/
@@ -166,8 +187,7 @@ footer {
 
 /*Intouch styles*/
 .intouch {
-  padding: 30px 5px 0px 5px;
-  margin: 25px 0;
+  padding: 1.5rem 1rem;
   background-color: inherit; }
   .intouch ul {
     list-style: none;
@@ -212,8 +232,7 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.2rem;
-    padding: 30px 5px 0px 5px;
-    margin: 25px 0;
+    padding: 1.5rem 1rem;
     background-color: inherit; }
     .opening .opening-times tbody {
       border: 1px solid #ccb69a;
@@ -243,6 +262,11 @@ footer {
 .intro {
   margin-top: 5rem; }
 
+.btn-services {
+  background-color: #e8a1c9;
+  border-color: #e8a1c9;
+  color: white; }
+
 .services {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,13 +280,17 @@ footer {
   .services .service-card {
     margin: 0 auto 2rem auto;
     border-radius: 7px; }
-    .services .service-card .btn-card {
-      background-color: #e8a1c9;
-      border-color: #e8a1c9;
-      font-weight: bold; }
+    .services .service-card .card-image-size {
+      height: 350px; }
+
+.description {
+  display: block; }
 
 .special-events {
-  margin-top: 3.5rem; }
+  background-color: white; }
+
+.events {
+  background-color: white; }
 
 .events-carousel {
   margin: 0 auto; }
@@ -286,6 +314,27 @@ footer {
   .events-carousel {
     max-width: 30%;
     margin-bottom: 2rem; } }
+
+.products {
+  margin-top: 3.5rem; }
+
+.products {
+  padding: 1.5rem 1rem;
+  background-color: inherit;
+  background-color: white; }
+  .products .section-container {
+    margin-bottom: 30px; }
+    .products .section-container p {
+      margin-top: 15px; }
+  .products .ghd {
+    background-image: url("../../images/services/products/ghd.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .products .shampoo {
+    background-color: grey; }
+  .products .hair {
+    background-color: grey; }
 
 .prices-intro {
   margin-top: 3.5rem; }

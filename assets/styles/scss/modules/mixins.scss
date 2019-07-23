@@ -14,7 +14,13 @@
 }
 
 @mixin sectionPad{
-  padding: 30px 5px 0px 5px;
-  margin:25px 0;
+  padding: 1.5rem 1rem;
   background-color: inherit;
+}
+
+@mixin buttons {
+  border-radius: 30px;
+  letter-spacing: 0.1em;
+  margin: 0.5rem 1rem;
+  width: 8rem;
 }

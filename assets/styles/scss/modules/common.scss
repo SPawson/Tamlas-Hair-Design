@@ -16,6 +16,7 @@ html {
     font-family: $headerFont;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+    text-align: center;
   }
 }
 
@@ -79,6 +80,24 @@ html {
 
 .hidden {
   display: none;
+}
+
+//Buttons
+
+.btn{
+  @include buttons;
+}
+
+//image styles
+
+.round-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 //Footer Styles
