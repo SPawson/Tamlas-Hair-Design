@@ -3,15 +3,19 @@ $(document).ready(function() {
     interval: 6000
   })
 
-
+//variables
   var hairExtBtn = $('#hair-ext-btn');
   var nailsBtn = $('#nails-btn');
   var mbBtn = $('#mb-btn');
   var makeupBtn = $('#makeup-btn');
+  var ghds = $('#ghd-btn');
+  var shampoo = $('#shampoo-btn');
+  var hairProducts = $('#hairwax-btn');
 
 //Toggle events to display info on service cards
   $('.description').hide();
 
+//Services page buttons/text
   hairExtBtn.on('click',function(){
     $('#hair-txt').toggle('slow');
   });
@@ -26,7 +30,17 @@ $(document).ready(function() {
     $('#makeup-txt').toggle('slow');
   });
 
+//Products page buttons/text
+ghds.on('click',function(){
+  $('#ghd-txt').toggle('slow');
+});
 
+shampoo.on('click',function(){
+  $('#shampoo-txt').toggle('slow');
+});
+hairProducts.on('click',function(){
+  $('#wax-txt').toggle('slow');
+});
 
 })
 
