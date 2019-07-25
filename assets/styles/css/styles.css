@@ -250,13 +250,16 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 1.5rem 1rem;
     background-color: inherit; }
     .opening .opening-times tbody {
       border: 1px solid #ccb69a;
       border-radius: 7px; }
-    .opening .opening-times tr {
+    .opening .opening-times th {
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 1.5rem;
       text-decoration: underline; }
     .opening .opening-times td {
       padding: 1rem 2rem; }

@@ -94,7 +94,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     @include sectionPad;
 
 
@@ -102,9 +102,15 @@
       border: 1px solid $goldIcon;
       border-radius: 7px;
     }
+    th{
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 1.5rem;
+      text-decoration: underline;
+    }
 
     tr {
-      text-decoration: underline;
+
     }
 
     td {
