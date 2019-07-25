@@ -24,6 +24,21 @@ html h6 {
 .top-section {
   margin-top: 3.5rem; }
 
+#nav-list {
+  margin-bottom: 0;
+  padding-left: 0; }
+  #nav-list li {
+    list-style: none; }
+    #nav-list li p {
+      font-size: 1rem;
+      color: #E0248A;
+      margin-bottom: 0;
+      font-weight: normal; }
+    #nav-list li a {
+      padding: 0; }
+  #nav-list .nav-number {
+    margin-top: -10px; }
+
 .navbar-char {
   background-color: #1F1F1F;
   position: fixed;
@@ -36,7 +51,7 @@ html h6 {
   .navbar-char ul li {
     padding-right: 0.6rem;
     font-size: 1.2rem;
-    font-weight: bold; }
+    font-weight: normal; }
     .navbar-char ul li a {
       color: #E0248A; }
     .navbar-char ul li .active {

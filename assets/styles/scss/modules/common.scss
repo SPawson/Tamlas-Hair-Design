@@ -27,6 +27,28 @@ html {
 .top-section{
     margin-top: 3.5rem;
 }
+
+#nav-list{
+  margin-bottom: 0;
+  padding-left: 0;
+
+  li{
+    list-style: none;
+    p{
+      font-size: 1rem;
+      color: $hotPink;
+      margin-bottom: 0;
+      font-weight: normal;
+    }
+    a{
+      padding: 0;
+    }
+  }
+  .nav-number{
+  margin-top: -10px
+  }
+}
+
 .navbar-char {
   background-color: $charcoal;
   position: fixed;
@@ -40,10 +62,11 @@ html {
   }
 
   ul {
+
     li {
       padding-right: 0.6rem;
       font-size: 1.2rem;
-      font-weight: bold;
+      font-weight: normal;
 
       a {
         color: $hotPink;
@@ -59,6 +82,8 @@ html {
 #navbar-responsive-btn {
   padding: 9px 10px;
   border-color: $hotPink;
+
+
 
   .icons {
     display: inline-block;
