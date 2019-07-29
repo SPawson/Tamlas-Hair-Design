@@ -79,6 +79,23 @@ html {
   }
 }
 
+.gold-icon{
+      @include icon;
+      height: 50px;
+      width: 50px;
+      font-size: 2rem;
+
+      background: rgba(204, 182, 154, 1);
+      margin: 10px auto;
+      a{
+        color: #fafafa;
+      }
+}
+
+.gold-icon:hover{
+  background-color: #bfa98c;
+}
+
 #navbar-responsive-btn {
   padding: 9px 10px;
   border-color: $hotPink;

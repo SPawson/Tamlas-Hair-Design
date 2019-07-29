@@ -18,16 +18,20 @@ $(document).ready(function() {
 //Services page buttons/text
   hairExtBtn.on('click',function(){
     $('#hair-txt').toggle('slow');
+    btnText(hairExtBtn);
   });
 
   nailsBtn.on('click',function(){
     $('#nails-txt').toggle('slow');
+    btnText(nailsBtn);
   });
   mbBtn.on('click',function(){
     $('#mb-text').toggle('slow');
+    btnText(mbBtn);
   });
   makeupBtn.on('click',function(){
     $('#makeup-txt').toggle('slow');
+    btnText(makeupBtn);
   });
 
 //Products page buttons/text
@@ -53,4 +57,12 @@ function initMap() {
   var map = new google.maps.Map(
         document.getElementById('map'), {zoom: 17, center: selby});
   var marker = new google.maps.Marker({position: selby, map: map});
+}
+
+function btnText(btn){
+  if(btn.text() == "Read More"){
+    btn.text("Read Less");
+  }else{
+    btn.text("Read More");
+  }
 }

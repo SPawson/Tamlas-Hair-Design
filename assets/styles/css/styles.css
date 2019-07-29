@@ -57,6 +57,35 @@ html h6 {
     .navbar-char ul li .active {
       color: #fdaeda; }
 
+.gold-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 20px 0;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 0;
+  text-align: center;
+  margin: 0 5px;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  background: #ccb69a;
+  margin: 10px auto; }
+  .gold-icon a {
+    color: #fafafa; }
+
+.gold-icon:hover {
+  background-color: #bfa98c; }
+
 #navbar-responsive-btn {
   padding: 9px 10px;
   border-color: #E0248A; }
@@ -308,6 +337,11 @@ footer {
     border-radius: 7px; }
     .services .service-card .card-image-size {
       height: 350px; }
+
+.service-list {
+  list-style: none;
+  font-weight: bold;
+  padding-left: 0px; }
 
 .description {
   display: block; }
