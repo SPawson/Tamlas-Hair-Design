@@ -396,9 +396,16 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
   .products .shampoo {
-    background-color: grey; }
+    background-image: url("../../images/services/products/loreal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .products .hair {
     background-color: grey; }
+
+@media (min-width: 1200px) {
+  .product-pad {
+    padding-bottom: 13em; } }
 
 .prices-intro {
   margin-top: 3.5rem; }
