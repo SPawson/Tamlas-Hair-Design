@@ -54,15 +54,17 @@
   @include sectionPad
 }
 /*Image slider styles*/
-.carousel{
+.gallery{
   background-color: white;
+
+  .carousel-item {
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-.carousel-item {
-  height: 60vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 /*Intouch styles*/
 
 .intouch {
@@ -124,9 +126,12 @@
     margin: 0 auto;
     max-width: 50%;
   }
+.gallery{
   .carousel-item{
     margin: 2em inherit;
   }
+}
+
 }
 @media(min-width: 992px) {
   .img-carousel {
