@@ -224,14 +224,13 @@ footer {
   background-color: inherit; }
 
 /*Image slider styles*/
-.carousel {
+.gallery {
   background-color: white; }
-
-.carousel-item {
-  height: 60vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  .gallery .carousel-item {
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 /*Intouch styles*/
 .intouch {
@@ -297,7 +296,7 @@ footer {
   .img-carousel {
     margin: 0 auto;
     max-width: 50%; }
-  .carousel-item {
+  .gallery .carousel-item {
     margin: 2em inherit; } }
 
 @media (min-width: 992px) {
@@ -351,6 +350,11 @@ footer {
 
 .events {
   background-color: white; }
+  .events .carousel-item {
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .events-carousel {
   margin: 0 auto; }
@@ -400,7 +404,9 @@ footer {
   margin-top: 3.5rem; }
 
 .prices {
-  background-color: white; }
+  background-color: rgba(255, 243, 209, 0.4); }
+  .prices .price-slides {
+    padding-bottom: 20px; }
   .prices .icon-circle {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -415,22 +421,41 @@ footer {
     border-radius: 50%;
     width: 25px;
     height: 25px; }
-  .prices .carousel-item .card {
-    margin: 0 auto;
-    border: 1px solid #ccb69a;
-    background-color: #ccb69a;
-    border-radius: 10px;
-    -webkit-box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
-    box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
-    height: 55vh; }
+  .prices .carousel-item {
+    height: 75vh; }
+    .prices .carousel-item .card {
+      margin: auto;
+      margin-bottom: 30px;
+      border: 1px solid #f1e4ed;
+      background-color: #f1e4ed;
+      border-radius: 10px;
+      -webkit-box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 3px, 3px, 10px rgba(0, 0, 0, 0.3);
+      width: 19rem; }
 
 .price-list {
   margin: auto;
-  font-size: 1.3rem; }
+  font-size: 1rem; }
   .price-list td {
-    padding: 1rem 1.8rem; }
+    padding: 0.6rem 1.8rem; }
   .price-list .title {
     text-decoration: underline; }
+
+@media (min-width: 576px) {
+  .carousel-item {
+    height: 60vh; } }
+
+@media (min-width: 768px) {
+  .carousel-item {
+    height: 50vh; } }
+
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 40vh; } }
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 20vh; } }
 
 .contact-title {
   text-align: center; }

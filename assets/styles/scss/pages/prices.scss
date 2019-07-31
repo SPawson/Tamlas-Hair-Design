@@ -3,7 +3,11 @@
 }
 
 .prices{
-  background-color: white;
+  background-color: rgba(255, 243, 209, 0.4);
+
+  .price-slides{
+    padding-bottom: 20px;
+  }
   .icon-circle{
     display: flex;
     justify-content: center;
@@ -13,25 +17,54 @@
     width: 25px;
     height: 25px;
   }
+
   .carousel-item{
+    height: 75vh;
     .card{
-      margin: 0 auto;
-        border: 1px solid $goldIcon;
-        background-color: $goldIcon;
-      border-radius: 10px;
-      box-shadow: 3px , 3px, 10px rgba(0, 0, 0, 0.3);
-      height: 55vh;
+        margin: auto;
+        margin-bottom: 30px;
+        border: 1px solid rgb(241, 228, 237);
+        background-color: rgb(241, 228, 237);
+        border-radius: 10px;
+        box-shadow: 3px , 3px, 10px rgba(0, 0, 0, 0.3);
+        width: 19rem;
     }
   }
 }
 
 .price-list{
   margin: auto;
-  font-size: 1.3rem;
+  font-size: 1rem;
   td{
-    padding: 1rem 1.8rem;
+    padding: 0.6rem 1.8rem;
+
   }
   .title{
     text-decoration: underline;
+  }
+}
+
+//Media Queries
+@media(min-width: 576px) {
+  .carousel-item{
+    height: 60vh;
+  }
+}
+
+@media(min-width: 768px) {
+  .carousel-item{
+    height: 50vh;
+  }
+}
+
+@media(min-width: 992px) {
+  .carousel-item{
+    height: 40vh;
+  }
+}
+
+@media(min-width: 1200px) {
+  .carousel-item{
+    height: 20vh;
   }
 }
