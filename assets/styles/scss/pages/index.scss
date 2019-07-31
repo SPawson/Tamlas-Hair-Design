@@ -1,5 +1,9 @@
 /*Callout styles*/
 
+#callout-items{
+  display: none;
+}
+
 .callout-section {
   display: flex;
   align-items: center;
@@ -55,8 +59,6 @@
 }
 /*Image slider styles*/
 .gallery{
-  background-color: white;
-
   .carousel-item {
     height: 60vh;
     background-position: center;
@@ -68,6 +70,7 @@
 /*Intouch styles*/
 
 .intouch {
+
   @include sectionPad ul {
     list-style: none;
     margin-top: 30px;
@@ -89,8 +92,7 @@
 }
 
 .opening {
-
-  background-color: white;
+background-color: $yellowSection;
 
   .opening-times {
     display: flex;
@@ -100,7 +102,9 @@
     @include sectionPad;
 
 
+
     tbody{
+      background-color: white;
       border: 1px solid $goldIcon;
       border-radius: 7px;
     }

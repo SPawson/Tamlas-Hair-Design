@@ -24,6 +24,9 @@ html h6 {
 .top-section {
   margin-top: 3.5rem; }
 
+.white-section {
+  background-color: white; }
+
 #nav-list {
   margin-bottom: 0;
   padding-left: 0; }
@@ -40,7 +43,7 @@ html h6 {
     margin-top: -10px; }
 
 .navbar-char {
-  background-color: #1F1F1F;
+  background-color: #3a3a3a;
   position: fixed;
   left: 0;
   top: 0;
@@ -103,6 +106,9 @@ html h6 {
 
 .hidden {
   display: none; }
+
+.heading-underline {
+  margin-bottom: 30px; }
 
 .btn {
   border-radius: 30px;
@@ -175,6 +181,9 @@ footer {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2); }
 
 /*Callout styles*/
+#callout-items {
+  display: none; }
+
 .callout-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,13 +233,11 @@ footer {
   background-color: inherit; }
 
 /*Image slider styles*/
-.gallery {
-  background-color: white; }
-  .gallery .carousel-item {
-    height: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+.gallery .carousel-item {
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*Intouch styles*/
 .intouch {
@@ -267,7 +274,7 @@ footer {
         background: #ccb69a; }
 
 .opening {
-  background-color: white; }
+  background-color: rgba(237, 249, 222, 0.32); }
   .opening .opening-times {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -282,6 +289,7 @@ footer {
     padding: 1.5rem 1rem;
     background-color: inherit; }
     .opening .opening-times tbody {
+      background-color: white;
       border: 1px solid #ccb69a;
       border-radius: 7px; }
     .opening .opening-times th {
@@ -411,7 +419,7 @@ footer {
   margin-top: 3.5rem; }
 
 .prices {
-  background-color: rgba(255, 243, 209, 0.4); }
+  background-color: rgba(237, 249, 222, 0.32); }
   .prices .price-slides {
     padding-bottom: 20px; }
   .prices .icon-circle {
@@ -537,12 +545,23 @@ footer {
 @media (min-width: 576px) {
   .contact-details {
     margin: 0 auto;
-    max-width: 60%; } }
+    max-width: 70%; } }
 
 @media (min-width: 768px) {
   .address-container {
     width: 200px; }
   #map {
     margin-top: 0;
+    height: 300px;
+    width: 450px; } }
+
+@media (min-width: 992px) {
+  #map {
+    margin-top: 0;
     height: 500px;
     width: 600px; } }
+
+@media (min-width: 1200px) {
+  .contact-details {
+    margin: 0 auto;
+    max-width: 50%; } }

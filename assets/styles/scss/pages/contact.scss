@@ -74,20 +74,33 @@ text-align: center;
 @media(min-width: 576px) {
   .contact-details {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 
 @media(min-width: 768px) {
-
-
   .address-container{
     width: 200px;
   }
+  #map{
+    margin-top: 0;
+    height:300px;
+    width: 450px;
+  }
+}
 
+@media(min-width: 992px) {
   #map{
     margin-top: 0;
     height:500px;
     width: 600px;
+  }
+
+}
+
+@media(min-width: 1200px) {
+  .contact-details {
+    margin: 0 auto;
+    max-width: 50%;
   }
 }
