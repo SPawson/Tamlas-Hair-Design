@@ -414,7 +414,11 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
   .products .hair {
-    background-color: grey; }
+    background-image: url("../../images/services/products/great-lengths.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black; }
 
 @media (min-width: 992px) {
   .product-pad {
