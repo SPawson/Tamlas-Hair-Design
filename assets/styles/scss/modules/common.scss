@@ -181,6 +181,11 @@ footer {
     color: $footerText;
   }
 
+  a:hover {
+    color: $footerText;
+    
+  }
+
   .footer-pages {
     .footer-link {
       display: inline-block;

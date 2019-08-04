@@ -150,6 +150,8 @@ footer {
       list-style: none; }
   footer a {
     color: #FEFEFF; }
+  footer a:hover {
+    color: #FEFEFF; }
   footer .footer-pages .footer-link {
     display: inline-block; }
   footer .icon {
