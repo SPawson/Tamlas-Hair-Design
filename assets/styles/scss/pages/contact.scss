@@ -17,9 +17,12 @@ text-align: center;
   align-items: center;
   background-color: rgba(187, 173, 105, 0.58);
   border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 2rem;
+  width: 2.9rem;
+  height: 2.9rem;
+ font-size: 2rem;
+ a{
+    color: $fontColor;
+ }
 }
 
 .contact-list {
