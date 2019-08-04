@@ -91,6 +91,10 @@ html h6 {
 
 .gold-icon:hover {
   background-color: #bfa98c; }
+  .gold-icon:hover a {
+    text-decoration: none; }
+  .gold-icon:hover i {
+    background-color: #bfa98c; }
 
 #navbar-responsive-btn {
   padding: 9px 10px;

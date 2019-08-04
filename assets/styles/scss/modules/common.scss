@@ -24,36 +24,39 @@ html {
   padding: 1.5rem 1rem;
 }
 
-.top-section{
-    margin-top: 3.5rem;
+.top-section {
+  margin-top: 3.5rem;
 }
 
-.white-section{
+.white-section {
   background-color: white;
 }
 
-.yellow-section{
+.yellow-section {
   background-color: $yellowSection;
 }
 
-#nav-list{
+#nav-list {
   margin-bottom: 0;
   padding-left: 0;
 
-  li{
+  li {
     list-style: none;
-    p{
+
+    p {
       font-size: 1rem;
       color: $hotPink;
       margin-bottom: 0;
       font-weight: normal;
     }
-    a{
+
+    a {
       padding: 0;
     }
   }
-  .nav-number{
-  margin-top: -10px
+
+  .nav-number {
+    margin-top: -10px;
   }
 }
 
@@ -70,7 +73,6 @@ html {
   }
 
   ul {
-
     li {
       padding-right: 0.6rem;
       font-size: 1.2rem;
@@ -87,28 +89,34 @@ html {
   }
 }
 
-.gold-icon{
-      @include icon;
-      height: 50px;
-      width: 50px;
-      font-size: 2rem;
+.gold-icon {
+  @include icon;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  background: rgba(204, 182, 154, 1);
+  margin: 10px auto;
 
-      background: rgba(204, 182, 154, 1);
-      margin: 10px auto;
-      a{
-        color: #fafafa;
-      }
+  a {
+    color: #fafafa;
+  }
 }
 
-.gold-icon:hover{
+.gold-icon:hover {
   background-color: #bfa98c;
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    background-color: #bfa98c;
+  }
 }
 
 #navbar-responsive-btn {
   padding: 9px 10px;
   border-color: $hotPink;
-
-
 
   .icons {
     display: inline-block;
@@ -131,22 +139,17 @@ html {
 .hidden {
   display: none;
 }
-
 //Section styles
-.heading-underline{
+
+.heading-underline {
   margin-bottom: 30px;
 }
-
-
 //Buttons
-
-.btn{
+.btn {
   @include buttons;
 }
-
 //image styles
-
-.round-image{
+.round-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,8 +158,8 @@ html {
   border-radius: 50%;
   margin: 0 auto;
 }
-
 //Footer Styles
+
 footer {
   background-color: $palePink;
   color: $footerText;
@@ -187,34 +190,32 @@ footer {
   .icon {
     padding-right: 5px;
   }
-.footer-address{
-  display: flex;
-  justify-content: center;
-  color: $fontColor;
 
-
-  .address-list {
-    list-style: none;
-    text-align: left;
-    padding-left: 20px;
-    color: white;
-  }
-
-  .icon-style {
+  .footer-address {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(187, 173, 105, 0.58);
-    border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 2rem;
+    color: $fontColor;
+
+    .address-list {
+      list-style: none;
+      text-align: left;
+      padding-left: 20px;
+      color: white;
+    }
+
+    .icon-style {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(187, 173, 105, 0.58);
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2rem;
+    }
   }
 }
 
-
-}
-
-.card-shadow{
-  box-shadow: 3px 3px 20px rgba(0,0,0,.2)
+.card-shadow {
+  box-shadow: 3px 3px 20px rgba(0,0,0,.2);
 }
