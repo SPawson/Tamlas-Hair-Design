@@ -1,6 +1,7 @@
 html {
   body {
     font-family: $paraFont;
+    width: 100%;
     overflow-x: hidden;
     background-color: $sectionDefault;
     color: $fontColor;
@@ -183,7 +184,7 @@ footer {
 
   a:hover {
     color: $footerText;
-    
+
   }
 
   .footer-pages {

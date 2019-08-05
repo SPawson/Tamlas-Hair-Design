@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 html body {
   font-family: "Karla", sans-serif;
+  width: 100%;
   overflow-x: hidden;
   background-color: rgba(255, 230, 252, 0.32);
   color: #494c4e;
@@ -517,7 +518,8 @@ footer {
     color: #494c4e; }
 
 .contact-list {
-  list-style: none; }
+  list-style: none;
+  padding: 1.5em; }
 
 .icon-container {
   display: -webkit-box;
@@ -531,7 +533,7 @@ footer {
   justify-content: center; }
   .icon-container table {
     display: inline-block;
-    padding: 2.5rem; }
+    padding: 1.5rem; }
     .icon-container table .icon-style {
       margin: 0 auto; }
 
