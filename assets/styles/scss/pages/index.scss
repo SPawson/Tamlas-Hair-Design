@@ -9,19 +9,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("../../images/callout/model.jpg");
+  background-image: url("../../images/callout/model1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 
-  .color-overlay {
-    width: 100%;
-    height: 100%;
-    background-color: $colourOverlay;
-    opacity: 0.95;
-    position: absolute;
-  }
+  //.color-overlay {
+  //  width: 100%;
+  //  height: 100%;
+  //  background-color: $colourOverlay;
+  //  opacity: 0.95;
+    //position: absolute;
+//  }
 
   .callout {
     margin: auto;
@@ -50,6 +50,9 @@
     .btn-callout:hover {
       background-color: #cc96b4;
       border-color: #cc96b4;
+      a{
+        text-decoration: none;
+      }
     }
   }
 }
