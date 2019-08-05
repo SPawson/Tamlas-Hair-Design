@@ -2,25 +2,18 @@
   margin-top: 3.5rem;
 }
 
-.color-overlay {
-  width: 100%;
-  height: 100%;
-  background-color: $colourOverlay;
-  opacity: 0.3;
-  position: absolute;
-}
-
-.prices{
+.prices {
   background-image: url("../../images/prices/flower.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 
-  .price-slides{
+  .price-slides {
     padding-bottom: 20px;
   }
-  .icon-circle{
+
+  .icon-circle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,52 +23,54 @@
     height: 25px;
   }
 
+  .carousel-item {
+    height: 90vh;
 
-
-  .carousel-item{
-    height: 75vh;
-    .card{
-
-        margin: auto;
-        margin-bottom: 30px;
-        border: 1px solid rgb(241, 228, 237);
-        background-color: rgb(241, 228, 237);
-        border-radius: 10px;
-        box-shadow: 3px , 3px, 10px rgba(0, 0, 0, 0.3);
-        width: 19rem;
+    .card {
+      margin: auto auto 30px;
+      border: 1px solid rgb(241, 228, 237);
+      background-color: rgb(241, 228, 237);
+      border-radius: 10px;
+      box-shadow: 3px , 3px, 10px rgba(0, 0, 0, 0.3);
+      width: 19rem;
     }
   }
 }
 
-.price-list{
+.price-list {
   margin: auto;
   font-size: 1rem;
-  td{
+
+  td {
     padding: 0.6rem 1.8rem;
   }
 }
-
 //Media Queries
 @media(min-width: 576px) {
-  .carousel-item{
-    height: 60vh;
+  .prices {
+    .carousel-item {
+      height: 65vh;
+    }
   }
 }
-
 @media(min-width: 768px) {
-  .carousel-item{
-    height: 50vh;
+  .prices {
+    .carousel-item {
+      height: 60vh;
+    }
   }
 }
-
 @media(min-width: 992px) {
-  .carousel-item{
-    height: 40vh;
+  .prices {
+    .carousel-item {
+      height: 60vh;
+    }
   }
 }
-
 @media(min-width: 1200px) {
-  .carousel-item{
-    height: 20vh;
+  .prices {
+    .carousel-item {
+      height: 60vh;
+    }
   }
 }
